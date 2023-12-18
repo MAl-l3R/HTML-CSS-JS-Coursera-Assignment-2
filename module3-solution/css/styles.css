@@ -1,0 +1,34 @@
+#empty-section{
+    height: 1000px;
+    width: auto;
+    background-color: gray;
+    margin: 30px;
+}
+
+h3 {
+    margin: 30px;
+}
+
+#the-navbar-container {
+    background-color: gray;
+    border: 2px solid gray;
+}
+
+div#the-navbar-header a.navbar-brand {
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+ul#nav-list li:nth-child(1) a, ul#nav-list li:nth-child(2) a{
+    border-bottom: 2px solid gray;
+}
+ul#nav-list li a{
+    color: black;
+    background-color: white;
+}
+
+.navbar-default .container-fluid .navbar-header .navbar-toggle {
+    color: white;
+    background-color: black;
+}
